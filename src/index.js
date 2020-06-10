@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
- 
+
 const list =
   React.createElement('div', {},
     React.createElement('h1', {}, 'My favorite ice cream flavors'),
@@ -12,7 +12,7 @@ const list =
       ]
     )
   );
- 
+
 ReactDOM.render(
   list,
   document.getElementById('global')
